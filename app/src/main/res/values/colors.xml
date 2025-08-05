@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="caqui">#9f9d92</color>
+    <color name="caqui_transparente">#609f9d92</color>
+    <color name="azul">#04608b</color>
+    <color name="celeste">#6ca9c2</color>
+    <color name="celeste_trans">#806ca9c2</color>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicio_salar"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/postal_salar"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/foto">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="Inicio de Sesión" />
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:padding="15dp"
+            android:hint="Nombre de Usuario"
+            android:inputType="text"
+            android:background="@drawable/fondo_edit_text"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:padding="15dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:background="@drawable/fondo_edit_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:padding="10dp"
+            android:text="¿Olvidó su contraseña?"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:width="250dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="INGRESAR"
+            android:background="@drawable/fondo_boton_ingresar"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
