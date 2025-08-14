@@ -22,13 +22,13 @@
             android:name=".activities.verificacion_activity"
             android:exported="false" />
         <activity
-            android:name=".activities.splash_activity"
+            android:name=".activities.MainActivity"
             android:exported="false" />
         <activity
             android:name=".activities.registroActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities.splash_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

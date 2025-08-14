@@ -8,4 +8,5 @@
     <color name="azul">#04608b</color>
     <color name="celeste">#6ca9c2</color>
     <color name="celeste_trans">#806ca9c2</color>
+    <color name="transparente">#00000000</color>
 </resources>

@@ -8,12 +8,106 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/item_usuario_bkg"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
 
-        <TextView
-            android:id="@+id/tvNombre"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"/>
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Nombre:" />
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_weight="0.9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:paddingStart="3dp"
+                android:text="Nombre de la persona"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Apellido:" />
+
+            <TextView
+                android:id="@+id/tvApellido"
+                android:layout_weight="0.9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:paddingStart="3dp"
+                android:text="Apellido de la persona"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Telefono:" />
+
+            <TextView
+                android:id="@+id/tvTelefono"
+                android:layout_weight="0.9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:paddingStart="3dp"
+                android:text="Telefono de la persona"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Correo electrónico:" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_weight="0.9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="3dp"
+                android:textSize="15sp"
+                android:text="Correo de la persona"/>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

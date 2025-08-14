@@ -47,7 +47,7 @@
             android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ingresarSplash"
+                android:id="@+id/btnIngresarSplash"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/fondo_btn_ingresar"
